@@ -5,9 +5,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="https://nicnic31.github.io/productPreviewCard/">
+      <BrowserRouter basename={window.location.pathname || ""}>
         <Routes>
-          <Route path="/productPreviewCard" element={<ProductPreview />} />
+          <Route path="/" element={<ProductPreview />} />
         </Routes>
       </BrowserRouter>
     </div>
