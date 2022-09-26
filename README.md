@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# productPreviewCard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TABLE OF CONTENTS: 
+•	Overview
+•	Challenge
+•	Built With
+•	The Process
+•	Screenshots
 
-## Available Scripts
+OVERVIEW
 
-In the project directory, you can run:
+The Product Preview Card Component is a challenge from Frontend Mentor on which it serves as the coding assessment. 
 
-### `npm start`
+NOTE: The design layout of the component is based from the challenge.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Please do check the master branch for the code.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+CHALLENGE: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
 
-### `npm run build`
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Your users should be able to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements.
+Challenge Link:  https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+BUILT WITH 
 
-### `npm run eject`
+1. React JS
+2. HTML
+3. CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+THE PROCESS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Analyze first the challenge of the Frontend Mentor.
+2. Check the design layout available in /design folder of the challenge file. Then the read the READ.md and the style-guide.md.
+3. Create react app using the [Create React App](https://github.com/facebook/create-react-app) for the creation of the file.
+4. Run the application by typing the npm start on the directory in the command line.
+5. Create the component for the Product Preview file.
+6. Create the file for the CSS style of the product Preview and import it to the component.
+7. Analyze the elements of the layout of the card and add className for each element for the styling.
+8. Check the style-guide.md for the styling of each elements such as the color, font style and size. Make sure that when styling the elements it should do first for the mobile size up to the web size.
+9. Check the design present on each devices. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+SCREENSHOTS:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CHALLENGE FOR WEB COMPONENT: 
+![image](https://user-images.githubusercontent.com/72647671/192196413-35e9d861-bd05-4c76-b68a-8c44107af53c.png)
 
-## Learn More
+ACCOMPLISHED WEB COMPONENT:
+![image](https://user-images.githubusercontent.com/72647671/192196524-62c03b2e-f34a-41cb-ae95-c19b215f504c.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+CHALLENGE FOR MOBILE COMPONENT: 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/72647671/192196597-e1d03919-2917-4e13-9ada-5f5a33039fb1.png)
 
-### Code Splitting
+ACCOMPLISHED WEB COMPONENT:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://user-images.githubusercontent.com/72647671/192196647-7f8479e3-94f3-4dfd-896a-51308cb017d9.png)
