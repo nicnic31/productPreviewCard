@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter basename={window.location.pathname || ""}>
         <Routes>
-          <Route exact path="/productPreviewCard" element={<ProductPreview />} />
+          <Route path="/productPreviewCard" element={<ProductPreview />} />
         </Routes>
       </BrowserRouter>
     </div>
