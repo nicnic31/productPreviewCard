@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import ProductPreview from './components/ProductPreview';
+import logo from "./logo.svg";
+import "./App.css";
+import ProductPreview from "./components/ProductPreview";
+import {BrowserRouter, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-     <ProductPreview />
+      <BrowserRouter basename={window.location.pathname || ""}>
+        <Route exact path="/productPreviewCard" component={ProductPreview} />
+      </BrowserRouter>
     </div>
   );
 }
